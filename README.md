@@ -6,15 +6,17 @@
 2. Anki desktop application. [Download Anki](https://apps.ankiweb.net/)
 3. Anki-Connect plugin. [Install Anki-Connect](https://git.sr.ht/~foosoft/anki-connect/tree/ab4d964d96712788889eb35d79471966aaf17ef6/item/README.md#installation)
 
-You need to have Anki desktop application up and running to use this MCP.
+You need to have Anki desktop application up and running to use Anki MCP server.
+
+## MCP Installation
 
 ```json
 {
   "mcpServers": {
     "anki": {
-      "command": "node",
+      "command": "npx",
       "args": [
-        "./index.js"
+        "@loonskai/anki-mcp-server@latest"
       ]
     }
   }
@@ -23,7 +25,7 @@ You need to have Anki desktop application up and running to use this MCP.
 
 ## Progress Log
 
-- [ ] WIP Run with NPM
+- [x] Run with NPM
 - [ ] Run with Docker
 - [ ] Tools configuration
 - [ ] Add tests
