@@ -1,5 +1,5 @@
 {
-  "name": "mcp-anki-server",
+  "name": "@loonskai/anki-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Anki",
   "type": "module",
@@ -7,25 +7,22 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "oxlint",
+    "test": "echo \"No test specified yet\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loonskai/mcp-anki-server.git"
+    "url": "git+https://github.com/loonskai/anki-mcp-server.git"
   },
   "author": "loonskai@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/loonskai/mcp-anki-server/issues"
+    "url": "https://github.com/loonskai/anki-mcp-server/issues"
   },
-  "homepage": "https://github.com/loonskai/mcp-anki-server#readme",
+  "homepage": "https://github.com/loonskai/anki-mcp-server#readme",
   "devDependencies": {
     "@types/node": "^22.15.18",
-    "@typescript-eslint/eslint-plugin": "^8.32.1",
-    "@typescript-eslint/parser": "^8.32.1",
-    "@typescript-eslint/utils": "^8.32.1",
-    "eslint": "^9.27.0",
-    "eslint-plugin-import": "^2.31.0",
+    "oxlint": "^1.2.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
@@ -34,7 +31,10 @@
     "yanki-connect": "^2.2.3",
     "zod-to-json-schema": "^3.24.5"
   },
+  "optionalDependencies": {
+    "@oxlint/linux-x64-gnu": "1.2.0"
+  },
   "bin": {
-    "mcp-anki-server": "cli.js"
+    "anki-mcp-server": "cli.js"
   }
 }
