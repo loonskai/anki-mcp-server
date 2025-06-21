@@ -35,7 +35,7 @@ You need to have Anki desktop application up and running to use Anki MCP server.
 - [ ] card.answerCards
 - [ ] card.areDue
 - [ ] card.areSuspended
-- [ ] card.cardsInfo
+- [x] card.cardsInfo
 - [ ] card.cardsModTime
 - [ ] card.cardsToNotes
 - [ ] card.findCards
@@ -63,7 +63,7 @@ You need to have Anki desktop application up and running to use Anki MCP server.
 - [ ] deck.setDeckConfigId
 - [ ] graphical.guiAddCards
 - [ ] graphical.guiAnswerCard
-- [ ] graphical.guiBrowse
+- [x] graphical.guiBrowse
 - [ ] graphical.guiCheckDatabase
 - [ ] graphical.guiCurrentCard
 - [ ] graphical.guiDeckBrowser
@@ -94,7 +94,7 @@ You need to have Anki desktop application up and running to use Anki MCP server.
 - [ ] miscellaneous.reloadCollection
 - [ ] miscellaneous.requestPermission
 - [ ] miscellaneous.sync
-- [ ] miscellaneous.version
+- [x] miscellaneous.version
 - [ ] model.createModel
 - [ ] model.findAndReplaceInModels
 - [ ] model.findModelsById
@@ -140,7 +140,7 @@ You need to have Anki desktop application up and running to use Anki MCP server.
 - [ ] note.updateNoteFields
 - [ ] note.updateNoteModel
 - [ ] note.updateNoteTags
-- [ ] statistic.cardReviews
+- [x] statistic.cardReviews
 - [ ] statistic.getCollectionStatsHTML
 - [ ] statistic.getLatestReviewID
 - [ ] statistic.getNumCardsReviewedByDay
